@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery - Shrake Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><img src="./images/second logo.png" alt="Shrake Store Logo"
+        /></a>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="search-container">
+        <input type="text" class="search" placeholder="Search..." />
+        <button onclick="search()">Search</button>
+      </div>
+      <button class="hamburger" aria-label="Toggle navigation">
+            <span><i class="bi bi-list"></i></span>
+        </button>
+    </header>
+
+    <main>
+      <section class="hero hero-gallery">
+        <h1>Our Gallery</h1>
+        <p>
+          We sell all kinds of home appliances and fashion wears for both
+          children and adults of all genders. We are transparent, reliable, and
+          trustworthy!
+        </p>
+      </section>
+
+      <section id="men-fashion">
+        <h2>Men's Wear</h2>
+        <div class="grid-container">
+          <div class="grid-item">
+            <img
+              src="images/different colors of men T-shirts.jpeg"
+              alt="Men's Shirt"
+            />
+            <h4>Men's Shirts</h4>
+            <p>Price: $1,900 (Available)</p>
+          </div>
+          <div class="grid-item">
+            <img src="images/men quality T-Shirt.jpeg" alt="Men's T-Shirt" />
+            <h4>Men's Quality T-Shirt</h4>
+            <p>Price: $800 (Out of stock)</p>
+          </div>
+          <div class="grid-item">
+            <img src="images/men T-shirt.jpeg" alt="Men's T-Shirt" />
+            <h4>Men's T-Shirt</h4>
+            <p>Price: $950 (Available)</p>
+          </div>
+          <div class="grid-item">
+            <img
+              src="images/white inner long sleeve shirt for men.jpg"
+              alt="White Long Sleeves"
+            />
+            <h4>White Long Sleeves for Men</h4>
+            <p>Price: $756 (Available)</p>
+          </div>
+          <div class="grid-item">
+            <img src="images/vintage.jpg" alt="Vintage Shirt" />
+            <h4>Vintage Shirt for Men</h4>
+            <p>Price: $1,500 (Available)</p>
+          </div>
+          <div class="grid-item">
+            <img
+              src="images/up and down vintage.jpg"
+              alt="Up and Down Vintage"
+            />
+            <h4>Up and Down Vintage for Men</h4>
+            <p>Price: $857 (Out of stock)</p>
+          </div>
+          <div class="grid-item">
+            <img
+              src="images/up and down double color vintage.jpg"
+              alt="Stylish Vintage"
+            />
+            <h4>Stylish Vintage for Men</h4>
+            <p>Price: $1,108 (Available)</p>
+          </div>
+          <div class="grid-item">
+            <img src="images/men armless polo.jpg" alt="Armless Shirt" />
+            <h4>Armless Shirt for Men</h4>
+            <p>Price: $625 (Available)</p>
+          </div>
+          <div class="grid-item">
+            <img src="images/arm gaurd for men.jpg" alt="Arm Guard" />
+            <h4>Arm Guard for Men</h4>
+            <p>Price: $430 (Available)</p>
+          </div>
+          <div class="grid-item">
+            <img
+              src="images/unisex round neck polo.jpg"
+              alt="Unisex Round Neck"
+            />
+            <h4>Unisex round neck</h4>
+            <p>Price: $680 (Available)</p>
+          </div>
+          <div class="grid-item">
+            <img src="images/dripp.jpeg" alt="Drip for Men" />
+            <h4>Complete drip for big boys</h4>
+            <p>Price: $1180 (Available)</p>
+          </div>
+          <div class="grid-item">
+            <img src="images/drip.jpeg" alt="Drip for Men" />
+            <h4>Complete drip for big boys</h4>
+            <p>Price: $1180 (Available)</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="men-shoes">
+        <h2>Men's Shoes</h2>
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src="images/shoe 6.jpg" alt="Bottega Shoe" />
+            <h4>Bottega Shoe</h4>
+            <p>Price: $3,000 (Available)</p>
+          </div>
+          <div class="grid-item">
+            <img src="images/shoe 5.jpg" alt="DC Martin" />
+            <h4>DC Martin</h4>
+            <p>Price: $856 (Available)</p>
+          </div>
+          <div class="grid-item">
+            <img src="images/shoe 4.jpg" alt="Gucci for Men" />
+            <h4>Gucci for Men</h4>
+            <p>Price: $680 (Available)</p>
+          </div>
+          <div class="grid-item">
+            <img src="images/shoe 4.jpg" alt="Gucci for Men" />
+            <h4>Gucci for Men</h4>
+            <p>Price: $680 (Available)</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+                <div class="footer-section">
+        <h3>About Us</h3>
+        <p>
+          We offer the latest fashion trends at affordable prices. Fast
+          shipping, secure payment, and excellent customer service.
+        </p>
+      </div>
+      <div class="footer-section-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Sign Up</a></li>
+        </ul>
+      </div>
+      <div class="foot-section-help">
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Track Order</a></li>
+        </ul>
+      </div>
+
+      <div class="social-icons">
+        <a href="#"><img src="./images/facebook.png" alt="Facebook" /></a>
+        <a href="#"><img src="./images/instagram.png" alt="Instagram" /></a>
+        <a href="#"><img src="./images/twitter.png" alt="Twitter" /></a>
+      </div>
+        </div>
+      
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Shrake Store. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

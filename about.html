@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - Shrake Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><img src="./images/second logo.png" alt="Shrake Store Logo"
+        /></a>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="search-container">
+        <input type="text" class="search" placeholder="Search..." />
+        <button id="search-btn">Search</button>
+      </div>
+
+      <button class="hamburger" aria-label="Toggle navigation">
+        <span><i class="bi bi-list"></i></span>
+      </button>
+    </header>
+
+    <main>
+      <section class="abt hero-abt">
+        <div class="abt-img">
+            <img src="./images/about_us.jpg" alt="" class="about-us-image"/>
+        </div>
+
+        <section class="hero hero-about">
+          <h1>About Us</h1>
+          <p>
+            Shrake Store is your one-stop shop for the latest fashion trends and
+            home appliances. We pride ourselves on offering high-quality
+            products at affordable prices, with fast shipping, secure payment
+            options, and exceptional customer service. Our mission is to make
+            fashion and lifestyle shopping simple and accessible for everyone,
+            anywhere in the world.
+          </p>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <p>
+            We offer the latest fashion trends at affordable prices. Fast
+            shipping, secure payment, and excellent customer service.
+          </p>
+        </div>
+        <div class="footer-section-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Sign Up</a></li>
+          </ul>
+        </div>
+        <div class="foot-section-help">
+          <h3>Customer Service</h3>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Track Order</a></li>
+          </ul>
+        </div>
+
+        <div class="social-icons">
+          <a href="#"><img src="./images/facebook.png" alt="Facebook" /></a>
+          <a href="#"><img src="./images/instagram.png" alt="Instagram" /></a>
+          <a href="#"><img src="./images/twitter.png" alt="Twitter" /></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Shrake Store. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("newsletter-form").onsubmit = function (event) {
+        event.preventDefault();
+        if (typeof subscribe === "function") {
+          subscribe();
+        }
+      };
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

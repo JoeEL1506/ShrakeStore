@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services - Shrake Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><img src="./images/second logo.png" alt="Shrake Store Logo"
+        /></a>
+      </div>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="search-container">
+        <input type="text" class="search" placeholder="Search..." />
+        <button onclick="search()">Search</button>
+      </div>
+
+      <button class="hamburger" aria-label="Toggle navigation">
+            <span><i class="bi bi-list"></i></span>
+        </button>
+    </header>
+
+    <main>
+      <section class="hero hero-services">
+        <h1>Our Services</h1>
+        <p>
+          We provide a range of services to ensure your shopping experience is
+          seamless and enjoyable:
+        </p>
+        <ul>
+          <li>Fast and reliable worldwide shipping</li>
+          <li>Easy returns and exchanges</li>
+          <li>24/7 customer support</li>
+          <li>Secure payment options</li>
+          <li>Exclusive deals and discounts</li>
+        </ul>
+      </section>
+
+      <div class="newsletter">
+        <h3>Subscribe to Our Newsletter</h3>
+        <p>Stay updated with the latest news and exclusive offers.</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+          praesentium architecto aspernatur esse, harum, repellendus recusandae
+          est consequuntur accusantium enim, mollitia quis officiis illo error.
+          Animi hic earum nihil necessitatibus!
+        </p>
+
+        <form id="newsletter-form">
+          <input
+            type="email"
+            class="news"
+            placeholder="Enter your email"
+            required
+          />
+          <button class="btn" type="submit">Subscribe</button>
+        </form>
+      </div>
+
+      <section class="services-details">
+        <h2>Why Choose Us?</h2>
+        <p>
+          At Shrake Store, we prioritize customer satisfaction. Our team is
+          dedicated to providing you with the best shopping experience possible.
+          Whether you need assistance with your order or have questions about
+          our products, we're here to help.
+        </p>
+        <p>Explore our wide range of products and enjoy shopping with us!</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+                <div class="footer-section">
+        <h3>About Us</h3>
+        <p>
+          We offer the latest fashion trends at affordable prices. Fast
+          shipping, secure payment, and excellent customer service.
+        </p>
+      </div>
+      <div class="footer-section-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Sign Up</a></li>
+        </ul>
+      </div>
+      <div class="foot-section-help">
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Track Order</a></li>
+        </ul>
+      </div>
+
+      <div class="social-icons">
+        <a href="#"><img src="./images/facebook.png" alt="Facebook" /></a>
+        <a href="#"><img src="./images/instagram.png" alt="Instagram" /></a>
+        <a href="#"><img src="./images/twitter.png" alt="Twitter" /></a>
+      </div>
+        </div>
+      
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Shrake Store. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      document
+        .getElementById("newsletter-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          subscribe();
+        });
+    </script>
+  </body>
+</html>
