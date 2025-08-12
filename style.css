@@ -442,8 +442,8 @@ input:focus {
 .footer-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
-    max-width: 1200px;
+    gap: 0.5rem;
+    max-width: 1400px;
     margin: 0 auto;
 }
 .footer-section,
@@ -536,6 +536,11 @@ legend {
     margin-bottom: 0.5rem;
     font-size: 0.9rem;
     display: grid;
+}
+
+.members {
+    font-size: 0.6rem;
+
 }
 
 /* Media Queries */
