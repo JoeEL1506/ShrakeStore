@@ -241,10 +241,10 @@ nav a:hover {
     text-align: left;
 }
 
-.readmore {
+/* .readmore {
     color: #fff;
     text-decoration: none;
-}
+} */
 
 .blog-title {
     font-size: 1.5rem;
@@ -441,16 +441,16 @@ input:focus {
 }
 .footer-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
     max-width: 1400px;
     margin: 0 auto;
+    
 }
 .footer-section,
 .footer-section-links,
 .foot-section-help,
 .students {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .footer-section h3,
@@ -462,20 +462,13 @@ input:focus {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-decoration: underline;
-    font-size: 1.2rem;
-}
-
-.footer-section p,
-.footer-section-links ul,
-.foot-section-help ul,
-.list {
-    margin-left: 0;
-    padding-left: 1rem;
+    font-size: 1rem;
 }
 
 .footer-section-links ul,
 .foot-section-help ul {
     list-style: none;
+    font-size: 0.7rem;
 }
 
 .footer-section-links a,
@@ -489,16 +482,15 @@ input:focus {
     color: #007bff;
 }
 
+.about p{
+    font-size: 0.7rem;
+}
 .footer-bottom {
-    margin-top: 2rem;
+    margin-top: 1rem;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     color: #ffffff;
 }
-
-/* .footer-bottom p {
-    margin: 0;
-} */
 
 .social-icons {
     display: flex;
